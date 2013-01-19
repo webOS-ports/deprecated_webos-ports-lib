@@ -81,3 +81,20 @@ A function that listens for the webOS Back Gesture and fires the onbackbutton si
 **Example:**
 
      {kind: "enyo.Signals", onbackbutton: "handleBackGesture"}
+     
+##ProgressOrb
+
+A circular variant of the onyx progress bar with an button in the center. Uses an enyo.Animator for smooth transitions between values.
+Published properties are value, min and max.
+This is an enyo2 reimagining of the progress indicator from the webOS 2.x Browser.
+
+**Example:**
+
+     {name: "FooOrb",
+     kind: "ProgressOrb",
+     style: "position: absolute; right: 8px; bottom: 8px;",
+     content: "O",
+     onButtonTap: "buttonTapped"},
+     buttonTapped: function(inSender, inEvent) {
+	this.$.FooOrb.setValue(this.$.FooOrb.value + 100);
+     },

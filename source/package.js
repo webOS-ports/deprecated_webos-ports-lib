@@ -1,8 +1,10 @@
 enyo.depends(
 	"PortsHeader.css",
+	"ProgressOrb.css",
 	"PortsHeader.js",
 	"PortsSearch.js",
 	"BackGesture.js",
 	"CoreNavi.js",
-	"CoreNaviArranger.js"
+	"CoreNaviArranger.js",
+	"ProgressOrb.js"
 );
