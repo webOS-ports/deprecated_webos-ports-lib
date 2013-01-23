@@ -6,5 +6,6 @@ enyo.depends(
 	"BackGesture.js",
 	"CoreNavi.js",
 	"CoreNaviArranger.js",
-	"ProgressOrb.js"
+	"ProgressOrb.js",
+	"NumberPad.js"
 );
