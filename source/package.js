@@ -7,5 +7,7 @@ enyo.depends(
 	"CoreNavi.js",
 	"CoreNaviArranger.js",
 	"ProgressOrb.js",
-	"NumberPad.js"
+	"NumberPad.js",
+	"CrossAppUI.js",
+	"FilePicker.js"
 );
