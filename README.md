@@ -1,3 +1,7 @@
+#DEPRECATED
+
+##Please note this has now been deprecated and merged with https://github.com/webOS-ports/webos-lib/
+
 #webos-ports-lib
 
 *A selection of additional enyo2 kinds to aid development for Open webOS*
